@@ -3,7 +3,7 @@ BLS-C-CCA is a weakly paired multi-modal fusion algorithm based on broad learnin
 
 ### Main idea : 
 By introducing a new network broad learning system (BLS), we can extract the abstract nonlinear feature representations. At the same time, it is easy to fuse multiple modalities information matching with pairing method cluster-CCA. The weakly paired multi-modal fusion BLS framework, which named BLS-C-CCA, mainly contains two components: 
-1. nonlinear feature representations of each modality learned by BLS modal separately and 
+1. nonlinear feature representations of each modality learned by BLS modal separately 
 2. multi-modal data fusion with a pairing algorithm cluster-CCA. 
 
 Because that RGB and Depth images are not in correspondence with each other at all, we need to divide the training data into some groups in accordance with the sort of image and object for the pairing process.
